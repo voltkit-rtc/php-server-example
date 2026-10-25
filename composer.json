@@ -1,0 +1,11 @@
+{
+  "name": "voltkit-rtc/php-server-example",
+  "description": "VoltKit RTC token server in plain PHP (no dependencies).",
+  "type": "project",
+  "license": "MIT",
+  "require": { "php": ">=8.2", "ext-curl": "*", "ext-json": "*" },
+  "scripts": {
+    "start": "php -S 0.0.0.0:7000 public/index.php",
+    "test": "php test/app.test.php"
+  }
+}
